@@ -1,0 +1,181 @@
+.background-container {
+    background-image: url('pexels-lisa-fotios-1006293 (1).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.headContainer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    color: white;
+    width:1000px;
+    margin: auto;
+  }
+  
+li{
+    list-style: none;
+    margin-right: 40px;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+} 
+
+.menu .listmenu{
+    display: flex;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.search input {
+    background-color: transparent;
+    border: 1px solid #f96c06;
+    height: 26px;
+    margin-left: 0;
+    margin-right: -5px;
+    font-size: 10px;
+    width: 150px;
+}
+.search input::placeholder{
+    padding-left: 10px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.search button {
+    background-color: #f96c06;
+    color: white;
+    align-items: center;
+    width: 80px;
+    margin-right: 0;
+    border: 1px solid #f96c06;
+    height: 26px;
+    font-size: 10px;
+    font-weight: 700;
+    
+}
+.logo h1{
+    color: #f96c06;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.gridContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.gridContainer .contentDiv {
+    width: 500px;
+    padding-left: 90px;
+    padding-top: 90px;
+}
+
+.contentDiv h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.contentDiv .devOrange {
+    color: #f96c06;
+}
+
+.contentDiv p {
+    font-size: 15px;
+    justify-content: space-between;
+}
+.contentDiv button {
+    background-color: #f96c06;
+    color: rgb(4, 4, 4);
+    align-items: center;
+    width: 120px;
+    margin-right: 0;
+    border: 1px solid #f96c06;
+    height: 28px;
+    font-size: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    
+}
+
+.loginDiv{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 200px;
+    height:260px;
+    font-size: 10px;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.loginDiv input{
+    width: 200px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:1px solid #f96c06 ;
+    margin-top: 20px;
+}
+.loginDiv input::placeholder{
+    color: #ffffff;
+    font-size: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.loginDiv a{
+    color: #f96c06;
+}
+.loginDiv p{
+    font-weight: bolder;
+}
+.loginDiv button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    background-color: #f96c06;
+}
+.loginDiv .para2{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.loginDiv h1{
+    color: #f96c06;
+    font-size: 15px;
+    padding:5px;
+}
+.loginDiv .h1Div{
+    margin: auto;
+    width: 190px;
+    background-color: #ffffff;
+    height: 30px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
